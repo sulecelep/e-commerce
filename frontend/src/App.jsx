@@ -1,18 +1,26 @@
 
 import React from 'react'
 import './App.css'
-import ContactPage from './pages/ContactPage'
+//import CartPage from './pages/CartPage'
+//import BlogPage from './pages/BlogPage'
+//import BlogDetailPage from './pages/BlogDetailPage'
+//import ProductDetailsPage from './pages/ProductDetailsPage'
+//import AuthPage from './pages/AuthPage'
+//import ContactPage from './pages/ContactPage'
 //import ShopPage from './pages/ShopPage'
-//import HomePage from './pages/HomePage'
+import HomePage from './pages/HomePage'
 
 function App() {
-
-
   return (
     <React.Fragment>
-      {/* <HomePage/> */}
+      <HomePage/>
       {/* <ShopPage/> */}
-      <ContactPage/>
+      {/* <ContactPage/> */}
+      {/* <AuthPage/> */}
+      {/* <CartPage/> */}
+      {/* <BlogPage/> */}
+      {/* <BlogDetailPage/> */}
+      {/* <ProductDetailsPage/> */}
     </React.Fragment>
   )
 }
